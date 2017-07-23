@@ -4,7 +4,7 @@
 		module="build-tool_2.10"
 		revision="0.0.1"
 		status="integration"
-		publication="20170723154824"
+		publication="20170723172552"
 	>
 		<description>
 		Build Tool
@@ -34,5 +34,6 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scalafx" name="scalafx_2.10" rev="8.0.102-R11" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
