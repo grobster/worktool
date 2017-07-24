@@ -24,3 +24,11 @@ run
 compile
 run
 exit
+compile
+tasks
+console
+compile
+run
+compile
+console
+compile
